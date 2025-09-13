@@ -78,8 +78,9 @@ result1: 384
 ## 🔧 Supported Input Formats
 
 ### Bitwise Operations (&, |, ^)
-- **Binary strings**: `'1010'`, `'0011'`
+- **Binary strings**: Operates with binary strings like `'1010'`, `'0011'`
 - **Decimal strings**: `'123'` → automatically converts to binary
+- **Byte alignment**: '10' → automatically converts to '0010'
 
 **Note**: Strings containing only 0s and 1s (like `'10'`, `'01'`) are treated as binary strings, not decimal numbers.
 
@@ -99,4 +100,4 @@ result1: 384
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/Sarmatae685)
+- GitHub: [@Sarmatae685](https://github.com/Sarmatae685)
