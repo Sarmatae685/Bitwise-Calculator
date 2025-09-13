@@ -21,7 +21,7 @@ python3 Bitwise\ Calculator.py
 
 ## Usage
 
-```shell
+```bash
 # Run the program
 python3 Bitwise\ Calculator.py
 
@@ -37,7 +37,7 @@ Your choice: ^
 ## Usage Examples
 
 ### XOR Bitwise Operation
-```shell
+```python
 # Input operands
 Input: x = '0011', y = '0101'
 Operation: <<
@@ -57,7 +57,7 @@ result1: 0110
 ```
 
 ### Left Shift Operation
-```shell
+```python
 # Input operands
 Input: x = '001100000', y = '2'
 Operation: <<
