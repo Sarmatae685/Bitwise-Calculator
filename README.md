@@ -57,7 +57,7 @@ result1: 0110
 ```
 
 ### Left Shift Operation
-```
+```shell
 # Input operands
 Input: x = '001100000', y = '2'
 Operation: <<
