@@ -107,10 +107,14 @@ def bitwise_operation(x, y):
             print(f"x = {x} → {x_int} (decimal)")
 
         if isinstance(y, str):
-            y_int = int(y) # десяткове число
-            print(f"y = '{y}' → {y_int} (shift positions)")
+            if is_binary_string(y):
+                y_int = int(y, 2)  # '1010' → 10 (бінарне → десяткове)
+                print(f"y = '{y}' (binary) → {y_int} (shift positions)")
+            else:
+                y_int = int(y)  # '123' → 123 (десяткове)
+                print(f"y = '{y}' (decimal) → {y_int} (shift positions)")
         else:
-            y_int = y
+            y_int = y  # Вже число
             print(f"y = {y_int} (shift positions)")
 
         if y_int < 0:
