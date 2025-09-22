@@ -18,8 +18,8 @@ A comprehensive command-line calculator for bitwise operations, bit shifting, an
 ## ⬇️ Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/Sarmatae685/src.git
-cd src
+git clone https://github.com/Sarmatae685/Bitwise-Calculator.git
+cd Bitwise-Calculator/src
 ```
 2. Run the program:
 ```bash
