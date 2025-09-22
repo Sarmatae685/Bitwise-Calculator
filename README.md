@@ -89,4 +89,4 @@ bitwise-calculator/
 - Two's complement support: Proper handling of negative numbers in bit inversion
 
 ### 🧾 License
-This project is open source and available under the MIT License.
+This project is open source and available under the [MIT License](LICENSE).
