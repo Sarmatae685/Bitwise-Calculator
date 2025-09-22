@@ -1,4 +1,6 @@
-def invert_v1(number, width=8):
+# NOTE: in use in invert_v3() function
+
+def invert_v1(number, width=8): 
     '''Version 1 - static width'''
     result = ~number
 
@@ -63,3 +65,4 @@ def invert_v3(number):
 # invert_v3(-5)
 # invert_v3(21834578)
 # invert_v3(-9678380976)
+
