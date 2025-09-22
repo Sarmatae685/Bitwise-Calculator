@@ -54,4 +54,5 @@ def bitwise_operation(*numbers, operation='^'):
 # test
 # bitwise_operation(23, operation='&') # видасть ValueError
 # bitwise_operation(23, 5, operation='|')
+
 # bitwise_operation(23, 5, operation='^')
